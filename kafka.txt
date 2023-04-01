@@ -1,0 +1,36 @@
+⏩ 𝗞̲𝗮̲𝗳̲𝗸̲𝗮̲ ̲𝗦̲𝗲̲𝗿̲𝗶̲𝗲̲𝘀̲ ̲(̲𝗣̲𝗮̲𝗿̲𝘁̲ ̲𝟭̲)̲
+
+Before understanding Kafka, let's first understand a few terminologies.
+
+✅ 𝙋𝙪𝙗𝙡𝙞𝙨𝙝-𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚:
+The publish-subscribe model is a messaging pattern used in distributed systems, where:
+✔ Senders of messages (publishers) do not send messages directly to specific receivers (subscribers).
+✔ Publishers send messages to an intermediary called a 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗕𝗿𝗼𝗸𝗲𝗿 which then distributes the messages to all interested subscribers.
+
+In this model:
+✔ Publishers and subscribers are 𝗱𝗲𝗰𝗼𝘂𝗽𝗹𝗲𝗱 𝗳𝗿𝗼𝗺 𝗲𝗮𝗰𝗵 𝗼𝘁𝗵𝗲𝗿, i.e., that they do not need to know about the existence of each other.
+✔ Publishers only need to know the topic or channel to which they want to publish messages, and subscribers only need to know the topics or channels to which they want to subscribe.
+
+✅ 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝘽𝙧𝙤𝙠𝙚𝙧
+✔ It is an intermediary service that enables communication between applications or components by transmitting messages between them.
+✔ It typically provides a set of features, including message routing, transformation, and filtering, as well as scalability, reliability, and fault-tolerance.
+✔ It is commonly used in enterprise integration and distributed systems, including microservices architectures, event-driven systems, and service-oriented architectures.
+✔ Some of the popular message brokers are RabbitMQ, IBM MQ, Apache Kafka, Amazon SQS, Apache Pulsar, etc.
+
+✅ 𝙀𝙫𝙚𝙣𝙩 𝙎𝙩𝙧𝙚𝙖𝙢𝙞𝙣𝙜
+Event streaming is the practice of:
+✔ Capturing data in real-time from event sources like databases, sensors, mobile devices, cloud services, and software applications in the form of streams of events.
+✔ Storing these event streams durably for later retrieval.
+✔ Manipulating, processing, and reacting to the event streams in real-time.
+✔ Routing the event streams to different destination technologies as needed.
+
+✅ 𝙒𝙝𝙖𝙩 𝙚𝙭𝙖𝙘𝙩𝙡𝙮 𝙞𝙨 𝙆𝙖𝙛𝙠𝙖?
+📌 It is an open-source distributed 𝗘𝘃𝗲𝗻𝘁 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 platform.
+📌 It is used for building real-time data pipelines and streaming applications.
+📌 It offers a 𝗣𝘂𝗯𝗹𝗶𝘀𝗵-𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 based messaging system.
+📌 It was originally developed at 𝗟𝗶𝗻𝗸𝗲𝗱𝗜𝗻 as a stream processing platform and was subsequently open sourced in the late 2010 and accepted as an Apache Software Foundation incubator project in July 2011.
+📌 The development team at LinkedIn was led by 𝗝𝗮𝘆 𝗞𝗿𝗲𝗽𝘀 (𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝗖𝗼-𝗳𝗼𝘂𝗻𝗱𝗲𝗿 𝗮𝗻𝗱 𝗖𝗘𝗢 𝗮𝘁 𝗖𝗼𝗻𝗳𝗹𝘂𝗲𝗻𝘁).
+
+
+https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
+https://en.wikipedia.org/wiki/Message_broker
